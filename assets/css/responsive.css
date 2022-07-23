@@ -1,0 +1,106 @@
+/* PC */
+@media(min-width: 64em) {
+
+}
+
+/* Table & Mobile */
+@media (max-width: 63.9375em) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    #nav .subnav li a {
+        line-height: 44px;
+        padding: 0 12px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    #footer .socials-list {
+        font-size: 32px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #slider .text-description {
+        margin-top: 12zpx;
+        margin-bottom: 42px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+    
+    #header .search-btn {
+        display: none;
+    }
+    
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+    }
+
+    #nav .subnav li a {
+        padding: 0 40px;
+    }
+
+    #nav .subnav li a {
+        background-color: rgb(0, 110, 137);
+    }
+
+    #content .player-img {
+        width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+
+    #slider .text-heading {
+        font-size: 20px;
+    }
+
+    #slider .text-description {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+}
